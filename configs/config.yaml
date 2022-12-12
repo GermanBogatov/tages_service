@@ -1,0 +1,15 @@
+---
+app:
+  is-debug: true
+  id: tages_service
+  name: Tages Service
+  log-level: trace
+grpc:
+  ip: 0.0.0.0
+  port: 30000
+postgresql:
+  host: 0.0.0.0
+  port: "5440"
+  username: postgres
+  password: postgres
+  database: postgres
